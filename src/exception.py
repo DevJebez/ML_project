@@ -17,7 +17,7 @@ class CustomException(Exception):
         logging.error(self.error_message)
 
     def __str__(self):
-        return self.error_message
+        return self.error_message 
     
 
 if __name__ == "__main__":
